@@ -1,2 +1,57 @@
-// Import page-specific CSS files here.
+
 @import "home";
+@import "list";
+
+body{
+  background-color: black;
+}
+
+.banner {
+  background: image-url('banner.jpg');
+  background-size: cover;
+  height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  color: white;
+
+}
+.title{
+  font-size: 64px;
+  font-weight: bold;
+}
+.banner-container {
+  width: 70vw;
+  margin: -50px auto 30px;
+}
+
+.banner h1 {
+  margin: 0;
+  color: #F5F5F5;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: #FFFFFF;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin: 60px 0 60px 0;
+}
+
+@media (max-width: 575px){
+  .main-black .black-wizard{
+    font-size: 15px;
+    padding: 14px 50px 14px 50px;
+  }
+}
+
+.list-film{
+  color: white;
+}
+.text-blanc {
+  color: white;
+}
