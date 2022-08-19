@@ -7,7 +7,7 @@ class ListsController < ApplicationController
     @list = List.new(list_params)
 
     if @list.save
-      redirect_to @list, notice: 'List was successfully created.'
+      redirect_to @list, notice: 'Votre liste à bien été créer.'
     else
       render :new
     end
