@@ -1,4 +1,4 @@
-<div class="banner"><div class="banner-movie text-center">
+<div class="banner-movie text-center" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= cl_image_path @list.photo.key, crop: :fill %>)">
   <div class="container">
     <h1><%= @list.name %></h1>
     <%= link_to "#{@list.movies.count} #{@list.movies.count > 1 ? 'movies' : 'movie'}", "", class: "btn btn-warning" %>
